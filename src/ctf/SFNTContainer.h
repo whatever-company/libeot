@@ -25,6 +25,7 @@ struct SFNTContainer
 {
   unsigned numTables;
   unsigned _numTablesReserved;
+  unsigned isTTF;
   struct SFNTTable *tables;
 };
 
